@@ -29,8 +29,8 @@ while True:
     logging.info("Counting down bugs from %s", start)
     lines = []
     for i in range(start, 0, -1):
-        lines.append("%s little bugs in the code. "
-                     "Take one down, fix it around." % i)
+        lines.append("%s brutal huge  bugs in the code. "
+                     "Take one down, or we will die." % i)
 
     with open(OUTPUT, "w") as f:
         f.write("\n".join(lines))
